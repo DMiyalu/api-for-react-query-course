@@ -45,8 +45,10 @@ app.get('/api/students', async ({ query }, res) => {
       salary,
       year_of_study,
       promo,
+      sexe,
     }) => ({
       id,
+      sexe,
       nom: lname,
       prenom: fname,
       nationalite: citizenship,
